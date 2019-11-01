@@ -9,3 +9,5 @@ I am displaying the following contents in my app in the below format:
 2) Publication timestamp
 3) Image of the news
 4) Description or content related to the news.
+
+Also, clicking on any particular news will redirect the user to the actual news link.
