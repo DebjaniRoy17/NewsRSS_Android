@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cardview_shadow_start_color"
+    android:background="@color/cardview_light_background"
     android:padding="8dp"
     tools:context=".MainActivity">
 
@@ -12,7 +12,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
+        android:background="@color/colorDark"
         android:minHeight="?attr/actionBarSize"
         android:padding="8dp"
         android:paddingLeft="8dp"

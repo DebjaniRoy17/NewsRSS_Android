@@ -4,9 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginBottom="8dp"
-    android:background="@color/cardview_dark_background"
+    android:background="@color/colorLight"
     android:padding="8dp"
-    app:cardBackgroundColor="@color/cardview_dark_background"
+    app:cardBackgroundColor="@color/colorLight"
     app:cardCornerRadius="10dp"
     app:cardElevation="8dp"
     app:cardMaxElevation="8dp">
@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:background="@color/cardview_dark_background"
+        android:background="@color/colorLight"
         android:orientation="vertical">
 
         <TextView
@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Title"
-            android:textColor="#ffffff"
+            android:textColor="@color/colorDark"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="2019-10-25 11:30:00"
-            android:textColor="#ffffff"
+            android:textColor="@color/colorDark"
             android:textSize="12sp"
             android:textStyle="italic" />
 
@@ -48,7 +48,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Description"
-            android:textColor="#ffffff"
+            android:textColor="@color/colorDark"
             android:textSize="14sp"
             android:textStyle="normal" />
 
